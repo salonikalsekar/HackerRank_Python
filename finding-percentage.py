@@ -33,3 +33,16 @@
 # Sample Output 1
 
 # 26.50
+
+
+if __name__ == '__main__':
+    n = int(input())
+    student_marks = {}
+    for _ in range(n):
+        name, *line = input().split()
+        student_marks[name] = list(map(float, line))
+
+    nameInput= input()
+    result = (sum(student_marks[nameInput]) / len(student_marks[nameInput]))
+    print('%.2f' % result)
+   
