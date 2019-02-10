@@ -38,3 +38,26 @@
 # python students = [['Harry', 37.21], ['Berry', 37.21], ['Tina', 37.2], ['Akriti', 41], ['Harsh', 39]]
 
 # The lowest grade of 37.2 belongs to Tina. The second lowest grade of 37.21 belongs to both Harry and Berry, so we order their names alphabetically and print each name on a new line.
+
+if __name__ == '__main__':
+    students=[]
+    for _ in range(int(input())):
+        list_1 = []
+        name = input()
+        score = float(input())
+        students.append([name, score])
+
+minElem = min(students,key= lambda x:x[1])
+for i in sorted(students, key = lambda x:x[1]):
+    if i[1] > minElem[1]:
+        minValue = i[1]
+        break
+
+result = []
+for i,x in enumerate(sorted(students, key = lambda x:x[1])):
+    if x[1] == minValue:
+        result.append(x)
+        
+for i in sorted(result):
+    print(i[0])
+
