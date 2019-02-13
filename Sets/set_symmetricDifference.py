@@ -51,11 +51,9 @@
 # 8
 
 n = int(input())
-setData = input()
+set1 = set(input().split())
 n1= int(input())
-setData1 = input()
+set2 = set(input().split())
 
-set1 = set(setData.split())
-set2 = set(setData1.split())
 
-print(len(set1.difference(set2)))
+print(len(set1.symmetric_difference(set2)))

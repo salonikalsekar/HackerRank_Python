@@ -110,3 +110,15 @@
 # 11
 # 12
 
+# Enter your code here. Read input from STDIN. Print output to STDOUT
+
+n = int(input())
+
+inputSet = set(input().split())
+n1 = int(input())
+inputSet1 = set(input().split())
+
+x =inputSet.difference(inputSet1)
+y = inputSet1.difference(inputSet)
+
+print ('\n'.join(sorted(x.union(y), key=int)))

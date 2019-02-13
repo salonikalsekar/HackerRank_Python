@@ -89,3 +89,18 @@
 # After completing these 10 operations on the set, we get set(. Hence, the sum is 4.
 
 # Note: Convert the elements of set s to integers while you are assigning them. To ensure the proper input of the set, we have added the first two lines of code to the editor.
+
+n = int(input())
+s = set(map(int, input().split()))
+
+num = int(input());
+for i in range(num):
+    newQuery= input().split()
+
+    if len(newQuery) == 1:
+        s.pop()
+    elif len(newQuery) == 2:
+        eval("s." + newQuery[0] + "(" + newQuery[1] +  ")")
+ 
+
+print(sum(s))
