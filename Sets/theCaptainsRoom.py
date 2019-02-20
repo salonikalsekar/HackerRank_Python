@@ -38,8 +38,16 @@
 # The list of room numbers contains 31 elements. Since K is 5, there must be 6 groups of families. In the given list, all of the numbers repeat 5 times except for room number 8. 
 # Hence, 8 is the Captain's room number.
 
-k,arr = int(input()),list(map(int, input().split()))
 
-set1 = set(arr)
+n = int(input())
 
-print(((sum(set1)*k)-(sum(arr)))//(k-1))
+set1 = sorted(input().split())
+
+n1 = int(len(set1) / n)
+
+for i in range(0, len(set1), n):
+    print(set1[i])
+    if set1.count(set1[i]) == 1:
+        print(set1[i])
+        break
+
