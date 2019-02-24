@@ -34,3 +34,21 @@
 
 # [0, 1, 1, 8, 27]
 
+cube = lambda x: x**3 # complete the lambda function 
+
+def fibonacci(n):
+    sum_res = 0
+    list1 = []
+    for i in range(n):
+        if len(list1) < 2:
+            sum_res = i
+        else:
+            sum_res= list1[-1] + list1[-2]
+        list1.append(sum_res)
+    return list1
+    # return a list of fibonacci numbers
+
+if __name__ == '__main__':
+    n = int(input())
+    print(list(map(cube, fibonacci(n))))
+
