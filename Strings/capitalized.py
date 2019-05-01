@@ -21,10 +21,7 @@
 # chris alan
 # Sample Output
 
-# Chris Alan
-
-
-
+# Chris Alan  
 
 #!/bin/python3
 
