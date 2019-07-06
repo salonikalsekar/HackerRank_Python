@@ -11,23 +11,66 @@
 # Scoring
 # A player gets +1 point for each occurrence of the substring in the string S.
 
-def minion_game(string):
-    list1 = []
+# def minion_game(string):
+#     list1 = []
+#     kevinCount = 0
+#     stuartCount = 0
+#     for i in range(0, len(string)):
+#         val = string[i]
+#         if val[0] in 'AEIOU':
+#             kevinCount += 1
+#         else:
+#             stuartCount += 1
+#         for j in range(i + 1, len(string)):
+#             val = val + string[j]
+#
+#             if val[0] in 'AEIOU':
+#                 kevinCount += 1
+#             else:
+#                 stuartCount += 1
+#
+#     if kevinCount > stuartCount:
+#         print("Kevin", kevinCount)
+#     elif kevinCount < stuartCount:
+#         print("Stuart", stuartCount)
+#     else:
+#         print("Draw")
+
+# def minion_game(string):
+
+#     kevinCount = 0
+#     stuartCount = 0
+#     for i in range(0, len(string)):
+#         val = string[i]
+#         if val[0] in 'AEIOU':
+#             kevinCount += 1
+#         else:
+#             stuartCount += 1
+#         for j in range(i+1, len(string)):
+#             val = val + string[j]
+
+#             if val[0] in 'AEIOU':
+#                 kevinCount += 1
+#             else:
+#                 stuartCount += 1
+
+#     if kevinCount > stuartCount:
+#         print("Kevin", kevinCount)
+#     elif kevinCount < stuartCount:
+#         print("Stuart", stuartCount)
+#     else:
+#         print("Draw")
+
+def minion_game(s):
+    vowels = 'AEIOU'
+
     kevinCount = 0
     stuartCount = 0
-    for i in range(0, len(string)):
-        val = string[i]
-        if val[0] in 'AEIOU':
-            kevinCount += 1
+    for i in range(len(s)):
+        if s[i] in vowels:
+            kevinCount += (len(s) - i)
         else:
-            stuartCount += 1
-        for j in range(i + 1, len(string)):
-            val = val + string[j]
-
-            if val[0] in 'AEIOU':
-                kevinCount += 1
-            else:
-                stuartCount += 1
+            stuartCount += (len(s) - i)
 
     if kevinCount > stuartCount:
         print("Kevin", kevinCount)
@@ -35,6 +78,8 @@ def minion_game(string):
         print("Stuart", stuartCount)
     else:
         print("Draw")
+
+
 
 
 if __name__ == '__main__':
