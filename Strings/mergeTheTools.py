@@ -36,17 +36,15 @@
 # We then print each  on a new line.
 
 def merge_the_tools(string, k):
-    # your code goes here
-    num = int(len(string) / int(k))
-    print(type(num))
-    for i in range(0, len(string), num):
-        str1 = ""
-        for j in range(i, i+num):
-            if string[j] in str1:
-                str1 = str1
-            else:
-                str1= str1 + string[j]
-        print(str1)
+
+
+    for i in range(0, len(string), k):
+        str = ""
+        for j in range(i, i + k):
+            if string[j] not in str:
+                str = str + string[j]
+
+        print(str)
 
 if __name__ == '__main__':
     string, k = input(), int(input())
