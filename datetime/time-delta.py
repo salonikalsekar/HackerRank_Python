@@ -39,9 +39,31 @@
 # https://www.hackerrank.com/challenges/python-time-delta/problem
 
 
-for i in range(int(input())):
-    arr = input().split()
-    try:
-        print(int(arr[0]) // int(arr[1]))
-    except Exception as e:
-        print("Error Code:", e)
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+from datetime import datetime as dt
+# Complete the time_delta function below.
+fmt = '%a %d %b %Y %H:%M:%S %z'
+def time_delta(t1, t2):
+    print(int(abs(((dt.strptime(t1, fmt) -
+                   dt.strptime(t2, fmt)).total_seconds()))))
+
+t = int(input())
+
+for t_itr in range(t):
+    t1 = input()
+
+    t2 = input()
+    time_delta(t1, t2)
