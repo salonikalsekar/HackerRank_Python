@@ -10,11 +10,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/XML/find_max_depth.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="579">
               <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Strings/alphabet_rangoli.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -45,6 +54,7 @@
         <option value="$PROJECT_DIR$/classes/complexNumbers.py" />
         <option value="$PROJECT_DIR$/XML/find_the_score.py" />
         <option value="$PROJECT_DIR$/XML/find_max_depth.py" />
+        <option value="$PROJECT_DIR$/Strings/alphabet_rangoli.py" />
       </list>
     </option>
   </component>
@@ -61,7 +71,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -72,12 +81,18 @@
             <path>
               <item name="HackerRank_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackerRank_Python" type="462c0819:PsiDirectoryNode" />
+              <item name="Strings" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HackerRank_Python" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HackerRank_Python" type="462c0819:PsiDirectoryNode" />
               <item name="XML" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -142,7 +157,7 @@
     <frame x="0" y="23" width="1440" height="808" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25679544" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -333,6 +348,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="579">
           <caret line="48" column="19" selection-start-line="48" selection-start-column="19" selection-end-line="48" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Strings/alphabet_rangoli.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="61" column="20" selection-start-line="61" selection-start-column="20" selection-end-line="61" selection-end-column="20" />
         </state>
       </provider>
     </entry>
