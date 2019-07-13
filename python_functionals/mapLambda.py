@@ -52,3 +52,30 @@ if __name__ == '__main__':
     n = int(input())
     print(list(map(cube, fibonacci(n))))
 
+
+    # OR
+
+cube = lambda x: x ** 3  # complete the lambda function
+
+
+def fibonacci(n):
+    a = 0
+    b = 1
+    list1 = [a, b]
+
+    if n == 1:
+        return [a]
+    elif n == 0:
+        return []
+    else:
+        for i in range(n - 2):
+            c = a + b
+            a = b
+            b = c
+            list1.append(c)
+        return list1
+
+
+if __name__ == '__main__':
+    n = int(input())
+    print(list(map(cube, fibonacci(n))))
