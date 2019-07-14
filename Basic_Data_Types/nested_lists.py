@@ -65,15 +65,15 @@ for i in sorted(result):
     # you can also solve it by:
 
     if __name__ == '__main__':
-    result=list()
-    list2 = list()
-    for _ in range(int(input())):
-        list1 = list()
-        name = input()
-        score = float(input())
-        list1.append(name)
-        list1.append(score)
-        list2.append(list1)
+        result=list()
+        list2 = list()
+        for _ in range(int(input())):
+            list1 = list()
+            name = input()
+            score = float(input())
+            list1.append(name)
+            list1.append(score)
+            list2.append(list1)
 
 
 minData = min(list2, key= lambda x:x[1] )
