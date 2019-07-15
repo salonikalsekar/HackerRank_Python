@@ -43,3 +43,24 @@
 # Sample Output
 
 # ['brian-23@hackerrank.com', 'britts_54@hackerrank.com', 'lara@hackerrank.com']
+
+
+def fun(s):
+    if '@' in s and '.' in s and len(s.split("@")) == 2 and len(s.split(".")) == 2:
+        if s.split("@")[0].replace("_","").replace("-", "").isalnum():
+            if s.split("@")[1].split(".")[0].isalnum() and len(s.split("@")[1].split(".")[1]) <=3:
+                return True
+    return False
+
+def filter_mail(emails):
+    return list(filter(fun, emails))
+
+if __name__ == '__main__':
+    n = int(input())
+    emails = []
+    for _ in range(n):
+        emails.append(input())
+
+filtered_emails = filter_mail(emails)
+filtered_emails.sort()
+print(filtered_emails)
