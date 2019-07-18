@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0910d4af-a6fd-4043-9337-d7a09fd3caf0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/python_functionals/reduceFunction.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_functionals/reduceFunction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/python_functionals/validate_emailAddress.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_functionals/validate_emailAddress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +11,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_functionals/validate_emailAddress.py">
+        <entry file="file://$PROJECT_DIR$/regex_parsing/findall_finditer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="639">
-              <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+            <state relative-caret-position="405">
+              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
             </state>
           </provider>
         </entry>
@@ -62,6 +61,7 @@
         <option value="$PROJECT_DIR$/debugging/default_arguments.py" />
         <option value="$PROJECT_DIR$/python_functionals/reduceFunction.py" />
         <option value="$PROJECT_DIR$/python_functionals/validate_emailAddress.py" />
+        <option value="$PROJECT_DIR$/regex_parsing/findall_finditer.py" />
       </list>
     </option>
   </component>
@@ -88,12 +88,7 @@
             <path>
               <item name="HackerRank_Python" type="b2602c69:ProjectViewProjectNode" />
               <item name="HackerRank_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="debugging" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="HackerRank_Python" type="b2602c69:ProjectViewProjectNode" />
-              <item name="HackerRank_Python" type="462c0819:PsiDirectoryNode" />
-              <item name="python_functionals" type="462c0819:PsiDirectoryNode" />
+              <item name="regex_parsing" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -161,10 +156,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1440" height="808" extended-state="6" />
+    <frame x="0" y="23" width="1440" height="811" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -372,9 +367,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Built-in-tools.py/test.pu">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Built-in-tools.py/test.pu" />
     <entry file="file://$PROJECT_DIR$/Built-in-tools.py/zipped.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="639">
@@ -465,8 +458,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_functionals/validate_emailAddress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="639">
+        <state relative-caret-position="975">
           <caret line="65" column="22" selection-start-line="65" selection-start-column="22" selection-end-line="65" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/regex_parsing/findall_finditer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
