@@ -1,4 +1,4 @@
-# HackerRank_Python
+# HackerRank Python
 
 Solved python problems from HackerRank
 
